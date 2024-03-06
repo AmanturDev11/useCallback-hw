@@ -1,0 +1,70 @@
+.App {
+	.content {
+		// display: flex;
+		// justify-content: center;
+		// align-items: center;
+		// flex-direction: column;
+		.inputcontent {
+			display: flex;
+			justify-content: center;
+			margin-top: 10px;
+			.inputcard {
+				display: flex;
+				justify-content: center;
+				flex-direction: column;
+				gap: 10px;
+				input {
+					width: 280px;
+				}
+				button {
+					background-color: rgb(34, 109, 60);
+				}
+			}
+		}
+		.cards {
+			display: flex;
+			justify-content: center;
+			margin-top: 20px;
+			flex-wrap: wrap;
+			.card {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				flex-direction: column;
+				border: 2px solid rgb(255, 145, 0);
+				border-radius: 10px;
+				width: 500px;
+				img {
+					width: 380px;
+					border-radius: 10px;
+				}
+				button {
+					background-color: rgb(34, 109, 60);
+					width: 280px;
+					border-radius: 5px;
+				}
+			}
+		}
+		.count {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+			margin-top: 30px;
+			border: 2px solid rgb(255, 145, 0);
+			border-radius: 10px;
+			padding-inline: 200px;
+
+			padding-inline: 40px;
+			// width: 650px;
+			button {
+				background-color: rgb(34, 109, 60);
+				width: 180px;
+				border-radius: 5px;
+			}
+		}
+		.top {
+			margin-top: 30px;
+		}
+	}
+}
